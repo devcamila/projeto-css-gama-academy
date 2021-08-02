@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #e2ce32;
+    font-family: 'Georama', sans-serif;
+}
+
+ul {
+    list-style: none;    
+    font-style: italic;    
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px;
+    
+}
+
+a:hover {
+    color: white;
+    transition: 300ms;
+}
+
+body {
+    background-image: url(img/fundo05.svg);
+    background-repeat: no-repeat;
+    background-position: center center fixed ;
+    background-size: cover;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom, #000000, #111010, #1c1a1a, #262423, #302e2c, #32302e, #333330, #353532, #2f2f2d, #2a2a27, #242422, #1f1f1d); */
+}
+
+header img {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 1px #605f56;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+header ul {
+    display: flex;
+}
+
+
+.container {
+    text-align: center;
+}
+
+.container .name h1 {
+    font-size: 50px;    
+    margin-bottom: 15px;
+}
+
+.container .name h2 {
+    font-size: 20px;
+}
+
+#arrow {
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 1s steps(5,start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.active {
+    display: block !important;
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+#animation {
+    transition: 300ms;
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 15px;
+    margin-top: 100px;
+}
+
+.form input {
+    width: 50% ;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px 0px 0px 3px;
+}
+
+.form button {
+    width: 15%;
+    padding: 5px 10px;
+    font-weight: 600;
+    background: linear-gradient(to right, #423b15 50%, #ac9b1d 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: white;
+    cursor: pointer;
+    border:none;
+    border-radius: 0px 3px 3px 0px;
+    transition: all 300ms ease-out;
+    margin-top: 20px;
+    margin-left: -5px;
+}
+
+button:hover {
+    background-position: left bottom ;
+    color: white;    
+}
+
+
+@media only screen and (max-width: 940px) {
+    .form {   
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .container .name h1 {
+        font-size: 30px;
+    }
+    
+    .container .name h2 {
+        font-size: 15px;
+    }
+
+    #about p {
+        max-width: 80%;
+        text-align: justify;
+    }
+   
+}

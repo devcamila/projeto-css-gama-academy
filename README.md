@@ -5,4 +5,3 @@ Em breve, vou adicionar outras funcionalidades e informações.
 
 
 
-![](C:\Users\cajol\Downloads\Screenshot (7).png)

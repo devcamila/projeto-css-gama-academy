@@ -1,8 +1,12 @@
-# projeto-css-gama-academy 💻
+## projeto-css-gama-academy - :hammer_and_wrench: EM CONSTRUÇÃO :hammer_and_wrench: 
 Projeto realizado no módulo de CSS da Gama Academy, com a professora Kai Pimenta. 
 O qual ela nos ensinou e aplicou conceitos de CSS em conjunto com HTML e JS. 
-Em breve, vou adicionar outras funcionalidades e informações. 
+Em breve, irei adicionar outras funcionalidades e informações para fazer desse projeto meu site profissional.
+
+---
+[![0K9z0.jpg](https://i.im.ge/2021/08/09/0K9z0.jpg)](https://im.ge/i/0K9z0)
+---
+
+Feito com amor :hugs: por <font color="yellow"> **Dev Camila Lacerda**</font>    | [*Conecte-se ao meu LinkedIn*](https://www.linkedin.com/in/camila-lacerda/)
 
 
-
-![](C:\Users\cajol\Downloads\Screenshot (7).png)
